@@ -27,6 +27,8 @@ public class DriveTrain extends Subsystem {
   public void resetpapa(){
     navX.reset();
   }
+
+  //This code was created from a template created by Ether which we found here: https://www.chiefdelphi.com/t/swerve-drive-programming/159349/2
   public void swervePapa(Joystick joystick){
     double FWD = -1 * joystick.getY();
     double STR = joystick.getX();
